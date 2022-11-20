@@ -6,8 +6,6 @@ The Hornbill Docs system is a complete end-to-end solution for creating and publ
 to Hornbill Docs https://docs.hornbill.com/ in order that our customers, partners and others can browse 
 and search our published documentation. 
 
-This is a contribution!
-
 ## Intended Audience 
 
 This documentation is useful for anyone involved in the development of content for Hornbill Docs
