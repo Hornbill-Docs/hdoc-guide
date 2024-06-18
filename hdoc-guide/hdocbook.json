@@ -29,7 +29,7 @@
         "expand": true,
         "items": [
           {
-            "text": "Content Creation",
+            "text": "Content creation",
             "link": "/hdoc-guide/overview"
           },
           {
@@ -43,23 +43,23 @@
         "expand": true,
         "items": [
           {
-            "text": "Getting Started",
+            "text": "Getting started",
             "link": "/hdoc-guide/getting-started/overview"
           },
           {
-            "text": "Simple Edits Workflow",
+            "text": "Workflow for simple edits ",
             "link": "/hdoc-guide/getting-started/simple-edits"
           },
           {
-            "text": "Complex Edits Workflow",
+            "text": "Workflow for complex edits",
             "link": "/hdoc-guide/getting-started/complex-edits"
           },
           {
-            "text": "Partner Content Creator Workflow",
+            "text": "Workflow for Partner Content Creators",
             "link": "/hdoc-guide/getting-started/partner-edits"
           },
           {
-            "text": "Creating a New Book",
+            "text": "Creating a new book",
             "link": "/hdoc-guide/getting-started/create-new"
           }
         ]
@@ -77,23 +77,23 @@
             "link": "/hdoc-guide/hdocbook/markdown"
           },
           {
-            "text": "Using Links In Documentation",
+            "text": "Using links in documentation",
             "link": "/hdoc-guide/hdocbook/using-links"
           },
           {
-            "text": "Document Page Redirects and Removals",
+            "text": "Document page redirects and removals",
             "link": "/hdoc-guide/hdocbook/document-redirects"
           },
           {
-            "text": "Reusable Content",
+            "text": "Reusable content",
             "link": "/hdoc-guide/hdocbook/reusable-content"
           },
           {
-            "text": "In-App Content",
+            "text": "In-app content",
             "link": "/hdoc-guide/hdocbook/in-app-content"
           },
           {
-            "text": "Content Layout Templates",
+            "text": "Content layout templates",
             "link": "/hdoc-guide/hdocbook/layout-templates"
           },
           {
@@ -101,7 +101,7 @@
             "link": "/hdoc-guide/hdocbook/frontmatter"
           },
           {
-            "text": "Server Variables",
+            "text": "Server variables",
             "link": "/hdoc-guide/hdocbook/server-variables"
           }
         ]
@@ -111,21 +111,21 @@
         "expand": true,
         "items": [
           {
-            "text": "Content Writing & Style Guide",
+            "text": "Style guide for writing content",
             "link": "/hdoc-guide/writing-style-guide"
           },
           {
-            "text": "Code of Conduct",
+            "text": "Code of conduct",
             "link": "/hdoc-guide/contributing/code-of-conduct"
           }
         ]
       },
       {
-        "text": "Other Useful Resources",
+        "text": "Other useful resources",
         "link": "/hdoc-guide/additional-resources"
       },
       {
-        "text": "Attribution & Thanks",
+        "text": "Attribution and thanks",
         "link": "/hdoc-guide/attribution"
       }
     ]

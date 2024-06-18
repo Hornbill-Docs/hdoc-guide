@@ -27,25 +27,25 @@ The folder structure of a HDocBook project is organized as a typical Node.js ass
 
 ## hdocbook-project.json file
 
-This file contains configuration settings used by the supporting HDocBook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. The file also includes several other properties that control the PDF generation and book validation components when validating and building books. 
+This file contains configuration settings used by the supporting HDocBook development and build tools. The most important property inside this file is the `docId` property, which tells the tools the name of the folder where the hdocbook.json file can be found. The file also includes several other properties that control the PDF-generation and book-validation components when validating and building books. 
 
 ### _pdfGeneration_ property
 The `pdfGeneration` property is an object containing two other properties:
 
-- `enable`: boolean true or false - should the book build process generate PDFs for page content
-- `exclude_paths`: an array of strings, paths (fully qualified root relevant paths, and supports wildcards) that should be excluded from the PDF generation process
+- `enable`: Boolean true or false - specifies whether the book-build process should generate PDFs for page content
+- `exclude_paths`: an array of strings, paths (fully qualified root relevant paths; supports wildcards) that should be excluded from the PDF-generation process
 
 ### _validation_ property
 The `validation` property is an object that contains properties to control various aspects of book validation:
 
-- `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book build and publishing processes
-- `exclude_spellcheck`: an array of objects, where `document_path` is the root relevant path to the document that should have additional validation exclusions applied, and `words` which is an array of strings, containing a list of words that should be excluded from the US - UK spell check validation
-- `exclude_h1_count`: an array of strings, containing rot-relevant paths of articles within the book that should be excluded from the H1 heading count validation
+- `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book-build and -publishing processes
+- `exclude_spellcheck`: an array of objects, where `document_path` is the root relevant path to the document that should have additional validation exclusions applied, and `words` which is an array of strings, containing a list of words that should be excluded from the US - UK spellcheck validation
+- `exclude_h1_count`: an array of strings, containing root-relevant paths of articles within the book that should be excluded from the H1 heading count validation
 
 ### _redirects_ property
-The `redirects` property is an array of objects, where each object describes a permanent redirect.  Once a book is published it is generally not a good idea to either rename a page without providing a server response that redirects permanently (301 or 308), or in the case of a delete, tells the caller that the resource is gone permanently (410). 
+The `redirects` property is an array of objects, where each object describes a permanent redirect. Once a book is published, one should avoid renaming a page without providing a server response that redirects permanently (301 or 308), or in the case of a delete, tells the caller that the resource is gone permanently (410).
 
-To read how to configure these redirects, see here: [Document Redirects](/hdoc-guide/hdocbook/document-redirects)
+To read how to configure these redirects, see [Document Redirects](/hdoc-guide/hdocbook/document-redirects).
 
 
 ## hdocbook.json file
@@ -56,17 +56,17 @@ Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provide
 |:---|:---|
 |`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in.|
 |`title`|The title of this book as it would be presented where there is no other context. For example, if the book is the API Reference for a product called Service Manager, then this title should be __Service Manager API Reference__|
-|`shortTitle`|The title of this as it would be presented in a product context, for example, there may be a list of books relating to a product called Service Manager that are presented grouped together pon the page.  As a context for Service Manager is already presented, then the short title would be __API Reference__|
-|`description`|A short description of the contents/purpose of this Book.|
+|`shortTitle`|The title of this as it would be presented in a product context, for example, there may be a list of books relating to a product called Service Manager that are presented grouped together on the page.  As a context for Service Manager is already presented, then the short title would be __API Reference__|
+|`description`|A short description of the contents/purpose of this book.|
 |`coverImage`|Fully-qualified [optional] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
 |`audience`|[array] Defines the audience that this HDocBook will be published to.|
 |`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
-|`version`|A version tag which identifies the revision number of this Book. This also controls automated publishing. Do not change this as an external contributor.|
-|`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation item properties.| 
+|`version`|A version tag which identifies the revision number of this book. This also controls automated publishing. Do not change this as an external contributor.|
+|`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation-item properties.| 
 
 ## Controlling Document Publishing
 
-Each document being publshed is added to a list on one of the publishing servers. The publishing server will poll the repository for each document and will keep track of the last published version.  When the publishing detects a change in version number for a given document, the publishing server will clone a copy of the repository, build, package, and publish to the required server(s) automatically.  
+Each document being published is added to a list on one of the publishing servers. The publishing server will poll the repository for each document and will keep track of the last published version.  When the publishing detects a change in version number for a given document, the publishing server will clone a copy of the repository, then build, package, and publish to the required server(s) automatically.  
 
 ::: warning
 For external contributions, no pull requests that include a version number change in the hdocbook.json file will be accepted into the main repository. 
@@ -77,8 +77,8 @@ For external contributions, no pull requests that include a version number chang
 |:---|:---|
 |`text`|The text displayed on the navigation view for this navigation item.|
 |`link`|The link to the content page you want this item to navigate to (this is ignored if `items` is present).|
-|`expand`|Set this to "true" you want this item to expand on refresh (assuming there are child navigation items).|
-|`draft`|Set this to "true" you want this item to be in draft mode. This means while the link is still available in the development workflow and preview server, this link will be removed and unavailable when published.  Default if not present is "false"|
+|`expand`|Set this to "true" if you want this item to expand on refresh (assuming there are child navigation items).|
+|`draft`|Set this to "true" if you want this item to be in draft mode. This means while the link is still available in the development workflow and preview server, this link will be removed and unavailable when published.  Default if not present is "false".|
 |`items[]`|An array of child navigation items. There are only three levels allowed, so levels defined beyond this are ignored.|
 
 Here is an example configuration, showing the file used to define this HDocBook:

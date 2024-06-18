@@ -1,12 +1,12 @@
 # Partner Content Creator/Editor Workflow
 
-Sometimes Hornbill will partner with and outsource to professional writers who are working on substantial portions of, or even creating whole documents that will be published on Hornbill Docs site.  Like our internal documentation team, and in these cases, we cab provide direct access to individual documents GitHub repo's allowing the author to work directly on the master repo, removing the need for the Hornbill Docs team and the author to work with Pull Requests, review and merge cycles which is typical in the Complex Edits workflow.  In effect, this is the exact same workflow as we use internally for authoring documents, which we extent to trusted content partners and individuals who are otherwise outside of Hornbill.
+Sometimes Hornbill will partner with and outsource to professional writers who are working on substantial portions of, or even creating whole documents that will be published on the Hornbill Docs site.  Like our internal documentation team, and in these cases, we can provide direct access to individual documents' GitHub repositories allowing the author to work directly on the master repo, removing the need for the Hornbill Docs team and the author to work with Pull Requests and review/merge cycles which is typical in the Complex Edits workflow.  In effect, this is the exact same workflow as we use internally for authoring documents, which we extend to trusted content partners and individuals who are otherwise outside of Hornbill.
 
 ## How it Works
-Once we have agreed to work with you on a specific document where there is substantial writing required, we will: -
+Once we have agreed to work with you on a specific document where there is substantial writing required, we will:
 
 * Advise you we are using this workflow
-* Ask you for your GitHub account name in order that we may add you to the specific master repository that contains the document source.  Although there may be exceptions to this, generally speaking you will only have access to the master repository during teh development phase, which means your edits will not be published directly to our Hornbill Docs website.  Instead we will have a specific preview site which you will be able to see published versions of the document(s) you have made changes to. 
+* Ask you for your GitHub account name in order that we may add you to the specific master repository that contains the document source. Although there may be exceptions to this, generally speaking you will only have access to the master repository during the development phase, which means your edits will not be published directly to the Hornbill Docs website.  Instead we will have a specific preview site which you will be able to see published versions of the document(s) you have made changes to. 
 * Share a link to the master repository in order that you may clone it directly to your local computer, without having to clone to your personal account (and therefore negating the need to use the Complex Edits workflow with Pull requests), and be able to commit back to the master repository as required. 
 
 ## Before you begin
@@ -29,10 +29,10 @@ The following steps must be complete before you can edit and commit Hornbill doc
     ```bash
     npm install hdoc-tools -g
     ```
-   Depending on your local operating system permissions, you may need to run the command as the root user. This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use.  Its generally a good idea to use local administrator rights if installing node modules globally does not work for you
+   Depending on your local operating system permissions, you may need to run the command as the root user. This installs the package globally to your Node.js installation, making the `hdoc` CLI tool available for you to use. If installing node modules globally does not work for you, use local administrator rights.
 
 ## Cloning Document Repository
-Run GitHub Desktop and add repository using the '''Clone Repository...''' option om GitHub desktop.  Once cloned, Open project in VS Code and edit as required.  You can use all of the usual Git features to manage and commit to your changes, and use GitHub Desktop to push change sets back into the Master Repository as required. 
+Open GitHub Desktop and add a repository using the '''Clone Repository...''' option. Once cloned, open the project in VS Code and edit as required.  You can use all of the usual Git features to manage and commit your changes, and use GitHub Desktop to push change sets back into the master repository as required. 
 
 :::note
 Please remember to always validate your documentation before committing changes.  In VS Code, open a terminal and simply type `hdoc validate' and your document will be checked for spelling, link integrity, missing pages, missing images and so on. 
