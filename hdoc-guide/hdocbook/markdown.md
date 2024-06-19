@@ -67,8 +67,7 @@ Dangerous consequences of an action.
 
 ## Angle Brackets
 
-If you need to use angle brackets &lt;&gt; in your text, you need to encode these using standard
-HTML entity encoding. 
+If you need to use angle brackets &lt;&gt; in your text, you need to encode these using standard HTML entity encoding. 
 
 The following:
 ```md
@@ -148,7 +147,7 @@ The following image types are supported.
 - .png
 - .svg
 
-For illustrations, flow diagrams and info graphics, we recommend you have your graphic designer use SVG format, and follow the [Hornbill Graphics and Illustration Style Guide](/_books/hdoc-guide/writing-style-guide#graphics-and-illustrations) in order to ensure that images scale properly for screen, print and PDF, and in the case of screen rendering look high quality in both light and dark screen rendering mode.
+For illustrations, flow diagrams and info graphics, we recommend you have your graphic designer use SVG format, and follow the [Hornbill Graphics and Illustration Style Guide](/_books/hdoc-guide/writing-style-guide#graphics-and-illustrations) in order to ensure that images scale properly for screen, print and PDF, and in the case of screen rendering look high-quality in both light and dark screen rendering modes.
 
 The basic Markdown syntax you should use to embed an image in your content is: 
 
@@ -157,7 +156,7 @@ The basic Markdown syntax you should use to embed an image in your content is:
 ```
 
 ## Links
-For information on using links, see [Using Links In Documentation](/hdoc-guide/hdocbook/using-links)
+For information on using links, see [Using Links In Documentation](/hdoc-guide/hdocbook/using-links).
 
 ## Lists - Numbered and Bulleted
 
@@ -184,7 +183,7 @@ This renders as follows:
 
 ### Bulleted List
 
-You can create a bulleted list using either `-` or `*` followed by a space at the start of each item, only use one or the other, stick to that throughout the entire article:
+You can create a bulleted list using either `-` or `*` followed by a space at the start of each item. Choose one, then stick to that throughout the entire article:
 
 ```md
 * The first item
@@ -205,7 +204,7 @@ This renders to a bulleted list follows:
 
 ## Superscript / Subscript
 
-Subscript and superscript are "inline" styles used normally for technical documentation. It's generally a bad idea to use these for creating smaller text items, like notes under images and so on; this should really only be used in a context that requires subscript/superscript for technical accuracy for things like formulas etc.
+Subscript and superscript are "inline" styles used normally for technical documentation. As a best practice, use these styles only in a context that requires subscript/superscript for technical accuracy (e.g. for formulas) and NOT for creating smaller text items, such as notes under images and so on.
 
 To get superscript or subscript we are using the in-line HTML feature of the markdown processor:
 
@@ -253,7 +252,7 @@ To align the table content horizontally you can use colons in the header separat
 | one                  | two                  | three             |
 ```
 
-Renders the following table:
+The above renders the following table:
 
 | Left Aligned         |    Center Aligned    |   Right Aligned |
 | :------------------- | :------------------: | ---------------:|
@@ -262,7 +261,7 @@ Renders the following table:
 | one                  | two                  | three             |
 
 ::: tip
-If you want a more interactive way to create a table you can use any one of a number of on-line markdown table generators
+If you want a more interactive way to create a table you can use any one of a number of online markdown table generators, for example:
 
 - [TableConvert](https://tableconvert.com/markdown-generator)
 - [Tables Generator](http://www.tablesgenerator.com/markdown_tables)
