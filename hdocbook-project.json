@@ -22,5 +22,8 @@
                 ]
             }
         ]
-    }
+    },
+    "redirects": [
+        { "url": "/hdoc-guide/writing-style-guide", "location": "/hdoc-guide/visual-style-guide", "code": 308 }
+    ]
 }
