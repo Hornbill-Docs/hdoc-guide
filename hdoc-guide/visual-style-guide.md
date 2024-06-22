@@ -1,6 +1,13 @@
 # Writing and Content Style Guide
 When publishing content, we do our best to keep all content contributions consistent, knowing that we will have contributors of all levels with multiple writing styles. To that end we have created a [General Writing Style Guide](/style-guide/) to provide some guard rails in terms of our content voice and writing style. For visual style guidelines, read on in this article.
 
+## Product Screen Shots
+Product screenshots are an excellent way to enhance documentation. Strategically positioned screenshots can provide a much better visual balance to the document compared to text alone. Professionally annotated screenshots are even more effective. For instance, if you have a screenshot where you want to highlight several specific features or elements, each element can be annotated and numbered directly on the image. This approach provides clear reference points that can be easily referred to in the article text.
+
+:::caution
+While screenshots provide a simple and low-cost way to add visual balance to your articles, it's important to consider that screenshot images can quickly become outdated as the software changes. This can lead to quality issues in the documentation. Generally speaking, it is advisable to use screenshots sparingly. Every screenshot you add creates future maintenance overhead, which we should aim to minimize.
+:::
+
 ## Graphics and Illustrations
 When creating content that requires illustrations, info graphics, and diagrams you should aim to create graphic assets rendered in Scalable Vector Graphics (SVG) format.  
 
