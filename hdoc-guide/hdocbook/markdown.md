@@ -127,7 +127,7 @@ console.log('Hello, world');
 
 ### Supported Languages
 
-The following hilight.js supported languages are also supported in hdoc-tools:
+The following highlight.js supported languages are also supported in hdoc-tools:
 
 * `apache`
 * `bash`
