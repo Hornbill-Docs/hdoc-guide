@@ -107,6 +107,65 @@ To format text as both ***bold and italic***, enclose it in three asterisks:
 This text is both ***bold and italic***.
 ```
 
+## Code Tags
+
+Hornbill Docs supports in-article code highlighing, using the popular [highlight.js](https://highlightjs.org/) library.
+
+To add blocks of code to your articles, you need to wrap your code with three backticks, and set an (optional) language to apply highlighted code, as so:
+
+<pre class="code-badge-pre"><div class="code-badge"><div class="code-badge-language">md</div><div title="Copy to clipboard"><i class="bi bi-clipboard code-badge-copy-icon"></i></div></div><code class="language-md hljs markdown"><span class="hljs-code">```js
+// Your JavaScript code could go here
+console.log('Hello, world');
+```</span></code></pre>
+
+Which would render as:
+
+```js
+// Your JavaScript code could go here
+console.log('Hello, world');
+```
+
+### Supported Languages
+
+The following hilight.js supported languages are also supported in hdoc-tools:
+
+* `apache`
+* `bash`
+* `cpp`
+* `cs`
+* `css`
+* `markdown`
+* `dart`
+* `diff`
+* `dns`
+* `dockerfile`
+* `dos`
+* `foxpro`
+* `fsharp`
+* `go`
+* `http`
+* `ini`
+* `java`
+* `javascript`
+* `json`
+* `kotlin`
+* `less`
+* `makefile`
+* `xml`
+* `nginx`
+* `perl`
+* `pgsql`
+* `php`
+* `powershell`
+* `python`
+* `rust`
+* `sql`
+* `swift`
+* `typescript`
+* `vbnet`
+* `ruby`
+* `yaml`
+
 ## Headings
 
 Hornbill Docs supports six levels of headings, specified by one through six hash `#` characters, followed by a space, and then the heading text:
