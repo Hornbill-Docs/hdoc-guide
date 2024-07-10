@@ -29,10 +29,10 @@ The following steps must be complete before you can edit and commit Hornbill doc
 2. Download and install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
 3. Follow these instructions to [Link your installation of Git to your GitHub account](https://docs.github.com/en/get-started/quickstart/set-up-git).
 4. Download and install [Visual Studio Code](https://code.visualstudio.com/). 
-5. Download and install [Node.js LTS](https://nodejs.org/en/).
+5. Download and install [Node.js Active LTS](https://nodejs.org/en/).
 
   ::: important
-  Install the latest Long Term Support (LTS) version of Node.js. Non-LTS versions are not supported by Hornbill.
+  Install the latest Active Long Term Support (Active LTS) version of Node.js. Non-Active LTS versions (including the Maintenance LTS stream) are not supported by Hornbill.
   ::: 
   ::: note
   During the Node.js installation, you may be asked to automatically install the tools necessary to compile native modules. Because these tools are required by the Hornbill's HDocBook tooling, you must either:
