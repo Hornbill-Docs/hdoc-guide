@@ -32,7 +32,7 @@ The following steps must be complete before you can edit and commit Hornbill doc
 5. Download and install [Node.js LTS](https://nodejs.org/en/).
 
   ::: important
-  Install the latest Long Term Support (LTS) version of Node.js. Non-LTS versions are not validated by Hornbill.
+  Install the latest Long Term Support (LTS) version of Node.js. Non-LTS versions are not supported by Hornbill.
   ::: 
   ::: note
   During the Node.js installation, you may be asked to automatically install the tools necessary to compile native modules. Because these tools are required by the Hornbill's HDocBook tooling, you must either:
