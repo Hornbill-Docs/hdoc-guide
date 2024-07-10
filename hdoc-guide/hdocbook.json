@@ -3,7 +3,7 @@
   "title": "Hornbill Docs Contributor Guide",
   "description": "Information about developing and publishing documentation on the Hornbill Docs (docs.hornbill.com) website",
   "publicSource": "https://github.com/Hornbill-Docs/hdoc-guide",
-  "version": "1.4.18",
+  "version": "1.4.20",
   "productFamily": "hdocs",
   "tags": [
     "hdoc",
