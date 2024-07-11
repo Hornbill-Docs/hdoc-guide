@@ -29,17 +29,17 @@
         "expand": true,
         "items": [
           {
-            "text": "Content creation",
+            "text": "About creating content",
             "link": "/hdoc-guide/overview"
           },
           {
-            "text": "HDocBook",
+            "text": "About HDocBook",
             "link": "/hdoc-guide/concepts/hdocbook"
           }
         ]
       },
       {
-        "text": "Contribution Guide",
+        "text": "How to contribute",
         "expand": true,
         "items": [
           {
@@ -47,15 +47,15 @@
             "link": "/hdoc-guide/getting-started/overview"
           },
           {
-            "text": "Workflow for simple edits ",
+            "text": "Making simple edits ",
             "link": "/hdoc-guide/getting-started/simple-edits"
           },
           {
-            "text": "Workflow for complex edits",
+            "text": "Making extensive edits",
             "link": "/hdoc-guide/getting-started/complex-edits"
           },
           {
-            "text": "Workflow for Partner Content Creators",
+            "text": "Contributing as a partner editor",
             "link": "/hdoc-guide/getting-started/partner-edits"
           },
           {
@@ -81,15 +81,15 @@
             "link": "/hdoc-guide/hdocbook/using-links"
           },
           {
-            "text": "Document page redirects and removals",
+            "text": "Managing page redirects and removals",
             "link": "/hdoc-guide/hdocbook/document-redirects"
           },
           {
-            "text": "Reusable content",
+            "text": "Creating reusable content",
             "link": "/hdoc-guide/hdocbook/reusable-content"
           },
           {
-            "text": "In-app content",
+            "text": "Creating in-app content",
             "link": "/hdoc-guide/hdocbook/in-app-content"
           },
           {
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "text": "Contributing",
+        "text": "Writing resources",
         "expand": true,
         "items": [
           {
