@@ -57,10 +57,11 @@ Hash anchor links in are a feature of HTML that allows users to jump to specific
 
 This can be particularly useful for enabling quick navigation to relevant content on a page, without having to scroll through the entire page to find it. When a user clicks on a hash anchor link, the browser locates the element with the corresponding ID attribute and brings it into view.
 
-Hornbill Docs supports both same-page and other-page hash anchor links:
+Hornbill Docs supports both same-page and different-page hash anchor links:
 
 **Same Page**
-To link to content on the same page, you do not need to provide the root-referenced internal URL as described in the [section above](#hornbill-docs-url-structure), you can just populate the link with the target section ID as so:
+
+To link to a section of content on the same page, you do not need to provide the root-referenced internal URL as described in the [section above](#hornbill-docs-url-structure), you can just populate the link with the target section ID as so:
 
 ```md
 [Hornbill Docs URL Structure](#hornbill-docs-url-structure)
@@ -70,7 +71,7 @@ This would generate this link: [Hornbill Docs URL Structure](#hornbill-docs-url-
 
 **Different Page**
 
-To link to a content section on a different Hornbill docs page, either within the same book, or in a different book entirely, you need to add the hash anchor link to the end of the root-relevant URL, as so:
+To link to a section of content on a different Hornbill docs page, either within the same book or in a different book entirely, you need to add the hash anchor link to the end of the root-relevant URL, as so:
 
 ```md
 [Markdown Headings](/hdoc-guide/hdocbook/markdown#headings)
