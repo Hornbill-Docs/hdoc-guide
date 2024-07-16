@@ -56,13 +56,33 @@ Located in the root of the &lt;doc-id&gt; folder, the hdocbook.json file provide
 |:---|:---|
 |`docId`|This is the document ID and should be set to the exact same name as the folder that the hdocbook.json file sits in.|
 |`title`|The title of this book as it would be presented where there is no other context. For example, if the book is the API Reference for a product called Service Manager, then this title should be __Service Manager API Reference__|
-|`shortTitle`|The title of this as it would be presented in a product context, for example, there may be a list of books relating to a product called Service Manager that are presented grouped together on the page.  As a context for Service Manager is already presented, then the short title would be __API Reference__|
 |`description`|A short description of the contents/purpose of this book.|
-|`coverImage`|Fully-qualified [optional] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
-|`audience`|[array] Defines the audience that this HDocBook will be published to.|
-|`publicSourceCode`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
+|`publicSource`|A URL to the public source location of the HDocBook. If not specified, this HdocBook is considered private.|
 |`version`|A version tag which identifies the revision number of this book. This also controls automated publishing. Do not change this as an external contributor.|
+|`productFamily`|The Id of the product family to associate the HDocBook with. A list of supported product families can be found [below](#supported-product-families).|
+|`coverImage`|Fully-qualified [optional] path from root for an image used as a cover image. This will be used for gallery rendering and social sharing. If not specified, a global generic image will be used.|
+|`tags`|An array containing a list of tags to associate with the HDocBook|
+|`audience`|An array containing a list of audiences that this HDocBook will be available to.|
 |`navigation`|An object containing the definition of the navigation that is presented to the left of the documentation.<br><br>The navigation object contains an items[] array containing the top-level navigation items. See the table below for navigation-item properties.| 
+
+### Supported Product Families
+
+|Id|Product Family|
+|:--|--|
+|`esp`|Hornbill Platform|
+|`com.hornbill.docmanager`|Document Manager|
+|`com.hornbill.boardmanager`|Board Manager|
+|`com.hornbill.customermanager`|Customer Manager|
+|`com.hornbill.grc`|GRC Risk Management|
+|`com.hornbill.itom`|IT Operations Management (ITOM)|
+|`com.hornbill.livechat`|LiveChat|
+|`com.hornbill.projectmanager`|Project Manager|
+|`com.hornbill.servicemanager`|Service Manager|
+|`com.hornbill.suppliermanager`|Supplier Manager|
+|`com.hornbill.timesheetmanager`|Timesheet Manager|
+|`com.hornbill.collaboration`|Collaboration|
+|`appdev`|Hornbill Developer Docs|
+|`hdocs`|Hornbill Docs|
 
 ## Controlling Document Publishing
 
