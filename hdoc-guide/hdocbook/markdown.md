@@ -199,6 +199,10 @@ The above Markdown will render like this.
 ## HTML
 Markdown supports inline HTML. As a general rule, HTML is not recommended for publishing to Hornbill Docs, but it may be useful in a limited number of situations. Basically, you should avoid using inline HTML to the greatest extent possible.
 
+:::important
+Hornbill Docs does not support runtime-compiled stylesheets, and therefore the use of `<style />` HTML tags in book markdown or static HTML documents is unsupported.
+:::
+
 ## Images
 The following image types are supported.  
 
