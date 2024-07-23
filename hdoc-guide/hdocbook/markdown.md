@@ -199,6 +199,8 @@ The above Markdown will render like this.
 ## HTML
 Markdown supports inline HTML. As a general rule, HTML is not recommended for publishing to Hornbill Docs, but it may be useful in a limited number of situations. Basically, you should avoid using inline HTML to the greatest extent possible.
 
+When using inline HTML in your Markdown book content, you will need to be aware of, and cater for, the conditions for embedding Markdown syntax within HTML tags. These are documented in the HTML Blocks section of the [CommonMark Specification](https://spec.commonmark.org/0.31.2/#html-blocks).
+
 :::important
 Hornbill Docs does not support runtime-compiled stylesheets, and therefore the use of `<style />` HTML tags in book markdown or static HTML documents is unsupported.
 :::
