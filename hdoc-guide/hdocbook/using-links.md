@@ -9,7 +9,7 @@ author: gerry
 This article covers the various ways in which you can use links within the Hornbill Docs documentation system. Markdown provides
 a very simple syntax for adding links, and links can refer to other parts of the same article, another article in the current book, an article in another book, or various forms of links to documents and resources outside of the Hornbill Docs system.
 
-When creating links, the text of the link should be readable, meaningful, and describe the thing being linked to. Creating a link with text that is written like [click here](#) is not recommended. Instead, something [using links](#) is better, as this not only helps with readability but also helps with search engine optimizations too.
+When creating links, the text of the link should be readable, meaningful, and describe the thing being linked to. Creating a link with text that is written like **click here** is not recommended. Instead, something **using links** is better, as this not only helps with readability but also helps with search engine optimizations too.
 
 There are two types of links you can use on the Hornbill Docs platform: external and internal. 
 
