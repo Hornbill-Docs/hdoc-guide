@@ -6,7 +6,7 @@ This article explains how to get set up for making extensive edits to Hornbill d
 
 The main benefit of this workflow over the simple-edits workflow is being able to preview documents in a browser window as you work on them.
 
-This workflow is more complex to set up than the [Simple Edits workflow](/_books/hdoc-guide/getting-started/simple-edits) as you need to install a number of dependencies and tools.
+This workflow is more complex to set up than the [Simple Edits workflow](/hdoc-guide/getting-started/simple-edits) as you need to install a number of dependencies and tools.
 
 Once you are set up, the editing process is relatively straightforward.
 
@@ -103,7 +103,7 @@ The following steps must be complete before you can edit and commit Hornbill doc
 After a pull request, your change is submitted to the Hornbill Docs team. They will review the proposed changes and decide whether to approve them for inclusion in the Hornbill documentation.
 
     ::: tip
-    You can use a combination of this extensive-edits workflow and the [simple-edits workflow](/_books/hdoc-guide/getting-started/simple-edits), depending on your need for the previewing feature.
+    You can use a combination of this extensive-edits workflow and the [simple-edits workflow](/hdoc-guide/getting-started/simple-edits), depending on your need for the previewing feature.
     :::
 
 ## Additional resources

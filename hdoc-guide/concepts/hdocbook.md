@@ -2,7 +2,7 @@
 
 A **HDocBook** (or book for short) is the name we give to a collection of individual, but related Articles.  As well as including a collection of written articles that make up the content of the book, a HDocBook provides the wrapper for containing and referencing supporting assets like images, downloadable files, icons and other static resources.  Like a physical book, this Book Package also includes the definition of a book's primary navigation index and table of contents, as well as other metadata to describe the books position in the Hornbill Docs library taxonomy. Other metadata that helps the Hornbill Docs search function includes information about the book such as subject, summary, keywords, tags and other such metadata that helps keeps books organization, categorized and easily searchable.  You can think of a Book analogous to a physical book. 
 
-An **Article** is what we call an individual page within a *Book*, an Article can be a single page of information or can be many screens full of information. A HDocBook will have an automated H2/H3 generated table of contents, which provides navigation links to locations within the current page.  The key attribute that defines a document as an Article is, it is represented physically, by a single file. Articles are generally written using Markdown [HDocBook Markdown](/_books/hdoc-guide/hdocbook/markdown), but where required, in special cases, they can be written using raw HTML. 
+An **Article** is what we call an individual page within a *Book*, an Article can be a single page of information or can be many screens full of information. A HDocBook will have an automated H2/H3 generated table of contents, which provides navigation links to locations within the current page.  The key attribute that defines a document as an Article is, it is represented physically, by a single file. Articles are generally written using Markdown [HDocBook Markdown](/hdoc-guide/hdocbook/markdown), but where required, in special cases, they can be written using raw HTML. 
 
 ::: caution
 When writing article content in HTML, you should ensure the HTML code you generate is compatible with the semantics, as well as the CSS we are using for layout/content positioning.
@@ -19,7 +19,7 @@ All books have a number of immutable characteristics, including a Globally Uniqu
 Each book is allocated a unique identifier, this is in the form of a lower-case-multi-word-hyphen-separated text string. When consuming the content pages of the book, this slug is always included in the URL when accessing the book content, so forms part of the final SEO optimization in relation to the search engine, crawling and final content location URL.
 
 ### Book Content
-Document content is written in [Markdown](/_books/hdoc-guide/hdocbook/markdown). Markdown is a plain text-based
+Document content is written in [Markdown](/hdoc-guide/hdocbook/markdown). Markdown is a plain text-based
 content writing system that uses very simple markup to control aspects of page layout and presentation, while at the same time providing a complete separation of concerns between content and presentation. 
 
 Markdown is a simple plain text scheme for marking up a document, that document can then be rendered using web pages, PDFs or other formats on many different device and screen types. Using Markdown ensures that content writers can focus on content and not have to worry about presentation and design issues such as fonts, colors, page alignment and so on. 
