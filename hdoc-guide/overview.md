@@ -10,7 +10,7 @@ Traditional documentation systems are generally built around "what you see is wh
 
 As well as basic writing skills and the requisite subject matter expertise, writing documentation at scale also needs a consistent, well defined, easy-to-use workflow for content creation, preview and publication. The Hornbill Docs in-house document system provides all of this in an end-to-end, tool and system-supported workflow, which handles the three main process steps of Content Development, Build/Publishing and Consumption. 
 
-![Documentation Architecture]( _books/hdoc-guide/images/hdocbook-architechture.svg )
+![Documentation Architecture](/_books/hdoc-guide/images/hdocbook-architechture.svg)
 
 
 

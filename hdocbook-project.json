@@ -8,7 +8,8 @@
         "exclude_links": [
             "/style-guide/",
             "http://127.0.0.1:3000/",
-            "mailto:docs@hornbill.com"
+            "mailto:docs@hornbill.com",
+            "https://www.tablesgenerator.com/markdown_tables"
         ],
         "exclude_h1_count": [
             "hdoc-guide/hdocbook/markdown"
