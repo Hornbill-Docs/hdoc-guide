@@ -329,7 +329,7 @@ The above renders the following table:
 If you want a more interactive way to create a table you can use any one of a number of online markdown table generators, for example:
 
 - [TableConvert](https://tableconvert.com/markdown-generator)
-- [Tables Generator](http://www.tablesgenerator.com/markdown_tables)
+- [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 :::
 
 ### Data matrix tables
