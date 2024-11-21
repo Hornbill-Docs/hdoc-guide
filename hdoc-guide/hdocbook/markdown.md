@@ -9,7 +9,7 @@ Every system that uses Markdown is generally built on a basic Markdown syntax, f
 Accordingly, the HDocBook Markdown syntax is also based on [CommonMark](https://commonmark.org/) but extends that with additional capabilities that allow rich documentation content features and visualizations to be created. This article is the reference for both basic and extended syntax for the HDocBook Markdown grammar and feature set.
 
 
-## Alerts (Note, Tip, Important, Caution, Warning)
+## Alerts (Note, Tip, Important, Information, Caution, Warning)
 
 Alerts is a HDocBook Markdown extension that will create block quotes that render on Hornbill H-DOC with colors and icons that indicate call-out information within the document.
 
