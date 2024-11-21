@@ -32,6 +32,10 @@ Optional information to help a user be more successful.
 Essential information required for user success.
 :::
 
+::: info
+Other information the user should take notice of.
+:::
+
 ::: caution
 Negative potential consequences of an action, be careful.
 :::
@@ -53,6 +57,10 @@ Optional information to help a user be more successful.
 
 ::: important 
 Essential information required for user success.
+:::
+
+::: info
+Other information the user should take notice of.
 :::
 
 ::: caution
