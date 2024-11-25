@@ -80,14 +80,14 @@ The following steps must be complete before you can edit and commit Hornbill doc
     :::
 
 6. Verify the book's integrity. 
-    Before committing your changes, stop your local server (CTRL_C) and run `hdoc verify`, which should catch any errors that would otherwise cause a fail during the build process. This command verifies the HDocBook integrity, making sure config files are correct, paths are set, links work, spelling and grammar comply with our writing standards, and so on. 
+    Before committing your changes, stop your local server (CTRL+C) and run `hdoc validate`, which should catch any errors that would otherwise cause a fail during the build process. This command verifies the HDocBook integrity, making sure config files are correct, paths are set, links work, spelling and grammar comply with our writing standards, and so on. 
 
 7. Commit your edits. To do this:
     1. Select "Source Control" on the left side of the VS Code screen, then select "Commit". 
     2. A commit message window opens. Add a commit message, then select the tick button to commit.
 
     ::: note
-    A commit message is your description of the changes you have made. The message is read by the Hornbill Docs team to evaluate your changes. The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (details) should be no more than 72 characters. [See here](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for more information on best practices for commit messages. 
+    A commit message is your description of the changes you have made. The message is read by the Hornbill Docs team to evaluate your changes. The heading of your message (a summary of your actions) should be no more than 50 characters, and the body (details) should be no more than 72 characters. See [best practices for commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). 
     :::
 
 8. Push your changes to your fork. 
