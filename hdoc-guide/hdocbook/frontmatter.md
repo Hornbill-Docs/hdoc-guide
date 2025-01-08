@@ -38,3 +38,4 @@ Frontmatter must always appear at the top of the article. The frontmatter conten
 |`description`|A description of the document. This will be used for gallery rendering and social sharing, using the [Open Graph protocol](https://ogp.me/). If not specified, a description will be generated using the first line of the book content.|
 |`readingTime`|The amount of reading time required for this document. If not specified, this will be calculated automatically when the document is built, ready for publishing.| 
 |`pdfAvailable`|Set to 'true' if there is a PDF document available for this article.|
+|`keywords`|A list of keywords associated with the article to enhance its relevance in documentation search rankings.|
