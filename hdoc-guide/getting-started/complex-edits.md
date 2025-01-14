@@ -102,9 +102,9 @@ The following steps must be complete before you can edit and commit Hornbill doc
 
 After a pull request, your change is submitted to the Hornbill Docs team. They will review the proposed changes and decide whether to approve them for inclusion in the Hornbill documentation.
 
-    ::: tip
-    You can use a combination of this extensive-edits workflow and the [simple-edits workflow](/hdoc-guide/getting-started/simple-edits), depending on your need for the previewing feature.
-    :::
+::: tip
+You can use a combination of this extensive-edits workflow and the [simple-edits workflow](/hdoc-guide/getting-started/simple-edits), depending on your need for the previewing feature.
+:::
 
 ## Additional resources
 
