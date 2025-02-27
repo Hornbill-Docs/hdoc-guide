@@ -38,7 +38,7 @@ The `pdfGeneration` property is an object containing two other properties:
 ### _validation_ property
 The `validation` property is an object that contains properties to control various aspects of book validation:
 
-- `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book-build and -publishing processes
+- `exclude_links`: an array of strings, containing links that should be excluded from the validation process. These could be example links that do not actually exist, or endpoints that are not available to the book-build and publishing processes. Supports a wildcard in the form of a post-fixed ```*``` character, to exclude all matching links. For example: ```http://www.hornbill.com*``` will exclude all links on the ```hornbill.com``` domain.
 - `exclude_spellcheck`: an array of objects, where `document_path` is the root relevant path to the document that should have additional validation exclusions applied, and `words` which is an array of strings, containing a list of words that should be excluded from the US - UK spellcheck validation
 - `exclude_h1_count`: an array of strings, containing root-relevant paths of articles within the book that should be excluded from the H1 heading count validation
 
