@@ -8,7 +8,9 @@ To achieve this, we are able to specify one or more redirects. These redirects a
 - `url`: The fully rooted URI that is being deleted, for example "/hdoc-guide/some/place/the-moved-or-deleted-resource".
 - `location`: The new location of the resource. This is optional in the case of a delete.  This is the URL that will be sent in the Location header.
 - `code`: The HTTP response code, which can be 301, 308, or 410.  For 301/308, you are required to provide a valid `location` link. This property is optional; if you do not provide a code, the server will send a 410 response code if there is a URL match but no `location` property provided. If the location property is provided, then a 308 response code will be sent.
-
+    - HTTP response code 301: Moved permanently - The requested page has moved to a new URL 
+    - HTTP response code 308: Permanent redirect - 	The requested page has moved permanently to a new URL
+    - HTTP response code 410: Gone - The requested page is no longer available     
 
 Here is an example of the project file:
 
