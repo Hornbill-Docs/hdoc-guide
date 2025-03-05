@@ -40,7 +40,7 @@ Here is an example of the project file:
         ]
     },
     "redirects": [
-        { "url": "/hdoc-guide/some/path/to/previous-resource", "location": "/hdoc-guide/new/location/to-resource", "code": 301 }
+        { "url": "/hdoc-guide/some/path/to/previous-resource", "location": "/hdoc-guide/new/location/to-resource", "code": 301 },
         { "url": "/hdoc-guide/some/path/to/deleted-resource", "code": 410 }
     ]
 }
