@@ -10,7 +10,8 @@ To achieve this, we are able to specify one or more redirects. These redirects a
 - `code`: The HTTP response code, which can be 301, 308, or 410.  For 301/308, you are required to provide a valid `location` link. This property is optional; if you do not provide a code, the server will send a 410 response code if there is a URL match but no `location` property provided. If the location property is provided, then a 308 response code will be sent.
     - HTTP response code 301: Moved permanently - The requested page has moved to a new URL 
     - HTTP response code 308: Permanent redirect - 	The requested page has moved permanently to a new URL
-    - HTTP response code 410: Gone - The requested page is no longer available     
+    - HTTP response code 410: Gone - The requested page is no longer available
+- `skip_location_validation`: A boolean value (true/false). If supplied with a value of `true`, and a loction has been provided, then the URL will not be validated by `hdoc validate` or `hdoc build`. Particularly useful when moving content between internal books where we can't reliably  validate the location
 
 Here is an example of the project file:
 
@@ -43,6 +44,7 @@ Here is an example of the project file:
     },
     "redirects": [
         { "url": "/hdoc-guide/some/path/to/previous-resource", "location": "/hdoc-guide/new/location/to-resource", "code": 301 },
+        { "url": "/hdoc-guide/some/path/to/old-resource", "location": "/new-book/new/location/to-resource", "code": 301, "skip_location_validation": true },
         { "url": "/hdoc-guide/some/path/to/deleted-resource", "code": 410 }
     ]
 }
