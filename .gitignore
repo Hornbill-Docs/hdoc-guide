@@ -7,3 +7,5 @@ slnx.state
 slnx.sqlite
 .DS_Store
 .vscode/settings.json
+
+validated-links.txt

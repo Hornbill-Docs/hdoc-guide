@@ -10,7 +10,9 @@
             "http://127.0.0.1:3000/",
             "mailto:docs@hornbill.com",
             "https://www.tablesgenerator.com/markdown_tables",
-            "https://wiki.hornbill.com"
+            "https://wiki.hornbill.com",
+            "https://code.visualstudio.com/",
+            "https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer"
         ],
         "exclude_h1_count": [
             "hdoc-guide/hdocbook/markdown"

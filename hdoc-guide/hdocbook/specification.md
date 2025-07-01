@@ -107,7 +107,7 @@ Here is an example configuration, showing the file used to define this HDocBook:
 {
     "docId": "hdoc-guide",
     "title": "Hornbill Docs Contributor Guide",
-    "description": "Information about developing and publishing documentation on the Hornbill Docs (docs.hornbill.com) website",
+    "description": "Information about developing and publishing documentation on the Hornbill Docs website",
     "publicSourceCode": "https://github.com/Hornbill-Docs/hdoc-guide",
     "version": "1.0.0",
     "navigation": {
