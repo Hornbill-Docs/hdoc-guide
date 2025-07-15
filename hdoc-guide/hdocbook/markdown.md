@@ -369,7 +369,7 @@ Hornbill Docs supports the use of Mermaid for the creation of diagrams to be inc
 
 To build a [Flowchart](https://mermaid.js.org/syntax/flowchart.html), add the the following markdown to your article:
 <pre class="code-badge-pre"><div class="code-badge"><div class="code-badge-language">md</div><div title="Copy to clipboard"><i class="bi bi-clipboard code-badge-copy-icon"></i></div></div><code class="language-md hljs markdown"><span class="hljs-code">```mermaid
-flowchart TD
+flowchart LR
     A[Start] --> B{Is it?}
     B -- Yes --> C[OK]
     C --> D[Rethink]
@@ -380,7 +380,7 @@ flowchart TD
 Which would render as so:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Start] --> B{Is it?}
     B -- Yes --> C[OK]
     C --> D[Rethink]
