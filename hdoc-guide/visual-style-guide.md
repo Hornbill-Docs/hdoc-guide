@@ -23,8 +23,8 @@ You can test the dark/light mode rendering by switching modes at the top right o
 
 <table style="width: 100%;">
     <tr>
-        <td style=""><img src="/_books/hdoc-guide/images/light-mode-switch.png" height="40px"></img></td>
-        <td style=""><img src="/_books/hdoc-guide/images/dark-mode-switch.png" height="40px"></img></td>
+        <td style=""><img src="/_books/hdoc-guide/images/light-mode-switch.png" height="40px" alt="Light mode toggle switch"></img></td>
+        <td style=""><img src="/_books/hdoc-guide/images/dark-mode-switch.png" height="40px" alt="Dark mode toggle switch"></img></td>
     </tr>
 </table>
 
