@@ -32,6 +32,10 @@ would render as: [Using Links](/hdoc-guide/hdocbook/using-links)
 
 It should be noted that when you specify a link to another page, that page is typically a markdown file with a .md file extension. However you should **never** include the .md part in any internal link. This is because the Hornbill Docs system generates static site content at build time and markdown is typically transformed to a .html file. Both the 'hdoc Preview Server' and Hornbill documentation server will locate the correct resource based on the URL without the extension. 
 
+::: note
+When linking from [in-app content](/hdoc-guide/hdocbook/in-app-content) to a Hornbill Docs page, you must use a fully qualified URL.
+:::
+
 ## Hornbill Docs URL Structure
 
 It's helpful to understand the structure of the Hornbill Docs system. URLs purposefully include the file and folder names of content within each book. This is done because, at build time, static HTML content is generated and it's important there is a consistent strategy for dealing with URLs to make sure that documents are referenced correctly, and to make sure there is a consistent mapping between the published content and the article source code, which is typically in a GitHub repository. 

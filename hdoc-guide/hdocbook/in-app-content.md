@@ -16,6 +16,7 @@ In-app content can be created in any book, by simply creating documents in the `
 - Articles in this folder cannot be linked to from other documentation pages.
 - Articles in this folder should be designed to be stand-alone and rendered in a popup window/lightbox to the end user, from within the application.
 - Articles in this folder WILL NOT be included in the sitemap and should not be subject to any site indexing.
+- When linking from in-app content to a Hornbill Docs page, you must use a fully qualified URL.
 - Links within these articles will always target a new browser window/tab. 
 
 When working with documents in development mode using the `hdoc serve` command, that tool will generate a pseudo entry at the bottom of the left-hand navigation so you can easily see/browse/view the in-app documents you have created in your HDocBook.
