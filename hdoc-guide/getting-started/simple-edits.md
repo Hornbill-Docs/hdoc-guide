@@ -3,7 +3,7 @@ layout: article
 ---
 # How to make simple edits
 
-To make simple edits, like fixing typos or adding text, all you need is a web browser and a GitHub account.
+To make simple edits, like fixing typos or adding text, all you need is a web browser and a GitHub account with sufficient privileges to the repository that you wish to edit.
 
 ## Prerequisites 
 - A personal or work GitHub account
