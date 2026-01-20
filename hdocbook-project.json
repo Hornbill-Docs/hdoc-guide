@@ -12,7 +12,8 @@
             "https://www.tablesgenerator.com/markdown_tables",
             "https://wiki.hornbill.com",
             "https://code.visualstudio.com/",
-            "https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer"
+            "https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer",
+            "https://www.google.co.uk"
         ],
         "exclude_h1_count": [
             "hdoc-guide/hdocbook/markdown"
