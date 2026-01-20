@@ -114,7 +114,7 @@ You can use a combination of this extensive-edits workflow and the [simple-edits
 
 ### Optional Visual Studio Code extensions (external)
 
-There are a number of [Visual Studio code Extensions ](https://code.visualstudio.com/learn/get-started/extensions) available to enhance your editing experience.
+There are a number of [Visual Studio code Extensions ](https://marketplace.visualstudio.com/VSCode) available to enhance your editing experience.
 
 Examples include:
 
