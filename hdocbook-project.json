@@ -6,14 +6,9 @@
     },
     "validation": {
         "exclude_links": [
-            "/style-guide/",
             "http://127.0.0.1:3000/",
             "mailto:docs@hornbill.com",
-            "https://www.tablesgenerator.com/markdown_tables",
-            "https://wiki.hornbill.com",
-            "https://code.visualstudio.com/",
-            "https://marketplace.visualstudio.com/*",
-            "https://www.google.co.uk",
+            "https://docs.hornbill.com",
             "https://www.npmjs.com/*"
         ],
         "exclude_h1_count": [

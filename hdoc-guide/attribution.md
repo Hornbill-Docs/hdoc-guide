@@ -12,4 +12,4 @@ Hornbill Docs is built substantially using open source tools and has drawn inspi
 * Express.js 
 * others to follow... 
 
-We have been using a Wiki tool for the [Hornbill Wiki](https://wiki.hornbill.com) for almost 10 years now, a very long time, but as our product range, number of customers and partner ecosystems have grown, the Hornbill Docs platform will be the foundation and standard for our future documentation strategy. 
+We used the Hornbill Wiki for almost 10 years—a very long time—but as our product range, customer base, and partner ecosystem have grown, all documentation is now available on the [Hornbill Docs platform](https://docs.hornbill.com), which serves as the foundation and standard for our future documentation strategy.
