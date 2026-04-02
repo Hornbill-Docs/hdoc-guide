@@ -13,7 +13,8 @@
             "https://wiki.hornbill.com",
             "https://code.visualstudio.com/",
             "https://marketplace.visualstudio.com/items?itemName=vitaliymaz.vscode-svg-previewer",
-            "https://www.google.co.uk"
+            "https://www.google.co.uk",
+            "https://www.npmjs.com/*"
         ],
         "exclude_h1_count": [
             "hdoc-guide/hdocbook/markdown"
