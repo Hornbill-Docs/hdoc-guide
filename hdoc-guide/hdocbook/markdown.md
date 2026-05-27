@@ -116,7 +116,7 @@ This text is both ***bold and italic***.
 
 ## Code Tags
 
-Hornbill Docs supports in-article code highlighing, using the popular [highlight.js](https://highlightjs.org/) library.
+Hornbill Docs supports in-article code highlighting, using the popular [highlight.js](https://highlightjs.org/) library.
 
 To add blocks of code to your articles, you need to wrap your code with three backticks, and set an (optional) language to apply highlighted code, as so:
 
@@ -367,7 +367,7 @@ Hornbill Docs supports the use of Mermaid for the creation of diagrams to be inc
 
 ### Examples
 
-To build a [Flowchart](https://mermaid.js.org/syntax/flowchart.html), add the the following markdown to your article:
+To build a [Flowchart](https://mermaid.js.org/syntax/flowchart.html), add the following markdown to your article:
 <pre class="code-badge-pre"><div class="code-badge"><div class="code-badge-language">md</div><div title="Copy to clipboard"><i class="bi bi-clipboard code-badge-copy-icon"></i></div></div><code class="language-md hljs markdown"><span class="hljs-code">```mermaid
 flowchart LR
     A[Start] --> B{Is it?}
@@ -388,7 +388,7 @@ flowchart LR
     B -- No ----> E[End]
 ```
 
-To build a [Sequence Diagram](https://mermaid.js.org/syntax/sequenceDiagram.html), add the the following markdown to your article:
+To build a [Sequence Diagram](https://mermaid.js.org/syntax/sequenceDiagram.html), add the following markdown to your article:
 <pre class="code-badge-pre"><div class="code-badge"><div class="code-badge-language">md</div><div title="Copy to clipboard"><i class="bi bi-clipboard code-badge-copy-icon"></i></div></div><code class="language-md hljs markdown"><span class="hljs-code">```mermaid
 sequenceDiagram
     participant A as Alice

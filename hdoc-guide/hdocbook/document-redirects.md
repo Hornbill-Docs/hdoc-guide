@@ -11,7 +11,7 @@ To achieve this, we are able to specify one or more redirects. These redirects a
     - HTTP response code 301: Moved permanently - The requested page has moved to a new URL 
     - HTTP response code 308: Permanent redirect - 	The requested page has moved permanently to a new URL
     - HTTP response code 410: Gone - The requested page is no longer available
-- `skip_location_validation`: A boolean value (true/false). If supplied with a value of `true`, and a loction has been provided, then the URL will not be validated by `hdoc validate` or `hdoc build`. Particularly useful when moving content between internal books where we can't reliably  validate the location
+- `skip_location_validation`: A boolean value (true/false). If supplied with a value of `true`, and a location has been provided, then the URL will not be validated by `hdoc validate` or `hdoc build`. Particularly useful when moving content between internal books where we can't reliably  validate the location
 
 Here is an example of the project file:
 

@@ -10,7 +10,7 @@ When writing article content in HTML, you should ensure the HTML code you genera
 
 In source code form, a book is simply a folder with certain mandatory files and folders, organized into a well defined structure.  A file called `hdocbook.json` must be included in the root folder, this file which essentially includes all of the metadata required to create the book, as well as metadata that controls publishing, indexing and taxonomy attribution. 
 
-Developing content for the Hornbill Docs system is supported with development tools created by the the Hornbill Docs team. These tools are available to install as part of your local [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) deployments. 
+Developing content for the Hornbill Docs system is supported with development tools created by the Hornbill Docs team. These tools are available to install as part of your local [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) deployments. 
 
 ## The Anatomy of a Book
 All books have a number of immutable characteristics, including a Globally Unique Identifier (called a slug), a Title, a Summary Description, a Table of Contents, as well as metadata that defines/controls publishing and presentation options, as well as information that helps organize Books into a structured taxonomy. 
@@ -27,7 +27,7 @@ Markdown is a simple plain text scheme for marking up a document, that document 
 If required, there are more advanced options to use HTML and inline CSS instead of Markdown to create custom layouts and presentations, but this is encouraged only for very special situations where Markdown is simply not an option.  The markdown syntax is based on the [CommonMark](https://commonmark.org/) standard, but the HDocBook specification also includes additional custom elements that are specialized for this type of documentation content rendering.
 
 ### Table of Contents
-A Book includes the definition of a table of content, which is presented on the left-hand navigation panel of links to pages, the table of contents can be a simple vertical list of links, or, can be a hierarchical tree of up to three levels deep leading to links. An entry in the table of contents tree can either be an expandible/collapsible "group of items" - OR - an item, which is link to an article and/or page anchor.
+A Book includes the definition of a table of contents, which is presented on the left-hand navigation panel of links to pages, the table of contents can be a simple vertical list of links, or, can be a hierarchical tree of up to three levels deep leading to links. An entry in the table of contents tree can either be an expandable/collapsible "group of items" - OR - an item, which is link to an article and/or page anchor.
 
 ### Anchor Shortcut Table
 For larger articles, where the content spans multiple screen pages, it is possible to enable an Article Anchor Link Shortcut Table.  This table appears at the top-right of the content page, and is automatically generated to include anchor links to all H2 and H3 content headings that have been written into the document. 

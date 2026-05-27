@@ -57,7 +57,7 @@ which would render the following link: [Using Links](/hdoc-guide/hdocbook/using-
 
 ### Hash Anchor Links
 
-Hash anchor links in are a feature of HTML that allows users to jump to specific sections within a webpage. By using a hash symbol (#) followed by a content identifier, known as the anchor's name, these links create a direct path to a designated point on the target webpage.
+Hash anchor links are a feature of HTML that allows users to jump to specific sections within a webpage. By using a hash symbol (#) followed by a content identifier, known as the anchor's name, these links create a direct path to a designated point on the target webpage.
 
 This can be particularly useful for enabling quick navigation to relevant content on a page, without having to scroll through the entire page to find it. When a user clicks on a hash anchor link, the browser locates the element with the corresponding ID attribute and brings it into view.
 

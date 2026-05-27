@@ -35,7 +35,7 @@ The following steps must be complete before you can edit and commit Hornbill doc
 Open GitHub Desktop and add a repository using the '''Clone Repository...''' option. Once cloned, open the project in VS Code and edit as required.  You can use all of the usual Git features to manage and commit your changes, and use GitHub Desktop to push change sets back into the master repository as required. 
 
 :::note
-Please remember to always validate your documentation before committing changes.  In VS Code, open a terminal and simply type `hdoc validate' and your document will be checked for spelling, link integrity, missing pages, missing images and so on. 
+Please remember to always validate your documentation before committing changes.  In VS Code, open a terminal and simply type `hdoc validate` and your document will be checked for spelling, link integrity, missing pages, missing images and so on. 
 :::
 
 Failing to validate your document will prevent any publishing because our publishing tools will run these validations first.  

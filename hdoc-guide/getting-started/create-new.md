@@ -4,7 +4,7 @@ This document will guide you through the process of creating a new Book.
 ## Background to Publishing on Hornbill Docs
 To understand the process of creating a new Book, it's important to have a clear understanding of what the Hornbill Documentation system is. Fundamentally, the Hornbill Docs platform is a documentation publishing system, specifically designed for publishing official Hornbill documentation to the [Hornbill Documentation](/) website. 
 
-Hornbill's documentation system borrows the concepts of physical paper book publishing, something very familiar and intuitive to most of us. The Hornbill documentation site is our "public library" of documents, and just like a physical library, in our digital library, we organize individual units of documentation as "Books". Each Book is made up of one or more individual articles (think pages or chapters), with a "table of contents" that organizes the article(s) into a navigable structure, much like the table of contents does that you find near the front of in a traditional paper book. 
+Hornbill's documentation system borrows the concepts of physical paper book publishing, something very familiar and intuitive to most of us. The Hornbill documentation site is our "public library" of documents, and just like a physical library, in our digital library, we organize individual units of documentation as "Books". Each Book is made up of one or more individual articles (think pages or chapters), with a "table of contents" that organizes the article(s) into a navigable structure, much like the table of contents you find near the front of a traditional paper book. 
 
 Part of the Hornbill Docs system is a taxonomy, which you can think of as the classifications and organized areas of a physical library (such as literature, physics, computer science and fiction). The taxonomy is used to tag and group collections of Books and organize them into a logical, easily navigable document Library.   
 
@@ -13,7 +13,7 @@ The Hornbill Docs team assumes the role of the "publisher", making sure that:
 - Book titles are relevant and well organized.
 - Content is not duplicated.
 - The taxonomy makes sense.
-- Library is well laid out and easy to navigate, even a large number of books. 
+- Library is well laid out and easy to navigate, even with a large number of books. 
 - The compiled Library is searchable and easily accessible by the intended audience.
 
 
@@ -29,10 +29,10 @@ When proposing a new Book to be published, the following information is required
 
 - Book Title
   - The most important attribute of a Book, the title is what will appear in the master index, search results and other key areas of the documentation system. The Book title must be meaningful and relevant and fit within the overall Library index structure.
-- Synopsys
+- Synopsis
   - Just as important as the title; one to five paragraphs setting out the purpose and topics for the Book to cover.
 - Audience
-  - Must define the target audience in accordance to the Hornbill Docs taxonomy specification.
+  - Must define the target audience in accordance with the Hornbill Docs taxonomy specification.
 - Table of Contents (optional)
   - Ideally this would be useful at proposal stage, but we understand that it's often not possible. 
 

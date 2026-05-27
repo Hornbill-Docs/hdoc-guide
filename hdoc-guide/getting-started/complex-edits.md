@@ -51,7 +51,7 @@ The following steps must be complete before you can edit and commit Hornbill doc
 
 1. Select an article to edit. To do this, browse to the [Hornbill Docs GitHub account](https://github.com/Hornbill-Docs) and locate the HDocBook you wish to contribute to. 
 
-2. Fork your copy on GitHub. To contribute to a HDocBook, you are first required to fork the repository that contains it, which will make a copy of that repository in your personal GitHub account. In your Github account, having selected the Hornbill document, select the fork menu item and create a new fork.
+2. Fork your copy on GitHub. To contribute to a HDocBook, you are first required to fork the repository that contains it, which will make a copy of that repository in your personal GitHub account. In your GitHub account, having selected the Hornbill document, select the fork menu item and create a new fork.
 
 3. Clone your copy to your local computer. To do this:
     1. On your computer, create a folder called "hornbill-docs" in the desired location.

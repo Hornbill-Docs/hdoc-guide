@@ -8,7 +8,7 @@ The INCLUDE directive takes the following form:
 [ [INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/agreements/code-of-conduct.md] ]
 </code>
 
-(without the space between the opening and closing square brackets). This will inject the content from the file `code-of-content.md` into your article.
+(without the space between the opening and closing square brackets). This will inject the content from the file `code-of-conduct.md` into your article.
 
 It is also possible to include content from within the same document. This is useful, for example, when you have content you might want to include in your document pages, but also want to include as _inline content for in-app product help. 
 
