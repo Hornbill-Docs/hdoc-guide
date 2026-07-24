@@ -82,6 +82,24 @@ The following steps must be complete before you can edit and commit Hornbill doc
 6. Verify the book's integrity. 
     Before committing your changes, stop your local server (CTRL+C) and run `hdoc validate`, which should catch any errors that would otherwise cause a fail during the build process. This command verifies the HDocBook integrity, making sure config files are correct, paths are set, links work, spelling and grammar comply with our writing standards, and so on. 
 
+    While validating, you may see a message such as `GitHub rate limit hit (HTTP 403) — waiting 60s before retry`. This happens because hdoc reads contributor information from GitHub, and unauthenticated requests to the GitHub API are limited to 60 per hour, shared across everyone on your network. Validation still completes, but it pauses while it waits for the limit to reset.
+
+    To remove these delays, create a personal access token and let hdoc use it automatically:
+
+    1. In GitHub, go to **Settings > Developer settings > Fine-grained personal access tokens** and select **Generate new token**.
+    2. Under **Repository access**, select **Only select repositories** and choose the Hornbill Docs books you work on.
+    3. Under **Permissions > Repository permissions**, set **Metadata** to **Read-only** and leave everything else as **No access**. No other permission is needed. This token cannot read your source code, only repository metadata such as the contributor list.
+    4. Generate the token and copy it.
+    5. Store it as a persistent user environment variable so hdoc picks it up in every terminal session. In a PowerShell window, run the following, replacing the placeholder with your token:
+
+        ```powershell
+        [Environment]::SetEnvironmentVariable("GITHUB_TOKEN", "your_token_here", "User")
+        ```
+
+    6. Open a new terminal for the change to take effect. From then on, `hdoc validate`, `hdoc serve`, and `hdoc build` use the token automatically and the rate-limit delays disappear.
+
+    Keep this token private. Do not commit it to a repository or paste it into a document. If it is ever exposed, delete it in GitHub and generate a new one.
+
 7. Commit your edits. To do this:
     1. Select "Source Control" on the left side of the VS Code screen, then select "Commit". 
     2. A commit message window opens. Add a commit message, then select the tick button to commit.
