@@ -9,7 +9,8 @@
             "http://127.0.0.1:3000/",
             "mailto:docs@hornbill.com",
             "https://docs.hornbill.com",
-            "https://www.npmjs.com/*"
+            "https://www.npmjs.com/*",
+            "https://github.com*"
         ],
         "exclude_h1_count": [
             "hdoc-guide/hdocbook/markdown"
